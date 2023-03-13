@@ -1,5 +1,35 @@
 /* Show it is fixed to the top */
 
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  font-size: .875em;
+}
+
+.chroma .nt {
+  color: rgb(120, 175, 215);
+}
+
+.chroma .na {
+  color: rgb(70, 171, 255);
+}
+
+.chroma .o {
+  color: rgb(178, 172, 162);
+}
+
+.chroma .s {
+  color: rgb(219, 67, 75);
+}
+
+
+
+.highlight pre code {
+  color: rgb(209, 205, 199);
+}
+
 hr.dashed {
   border-top: 3px dashed #3a3838;
 }

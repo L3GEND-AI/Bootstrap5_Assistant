@@ -1,4 +1,9 @@
 /* Show it is fixed to the top */
+
+hr.dashed {
+  border-top: 3px dashed #3a3838;
+}
+
 body {
     min-height: 75rem;
     padding-top: 4.5rem;

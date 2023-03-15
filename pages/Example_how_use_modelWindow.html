@@ -103,94 +103,110 @@
 
                 <br />
 
-                <button
-                  class="btn btn-light btn-primary"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#dropBoxData"
-                  aria-expanded="false"
-                  aria-controls="dropBoxData"
-                >
-                  Показать код &raquo;
-                </button>
+                
 
-                <!-- Дропбокс с кодом -->
+                <!-- Модуль с кодом -->
 
-                  <div class="collapse" id="dropBoxData">
-                  <div class="card card-body">
-                    <code class="language-html" data-lang="html"
-                      ><span class="p">&lt;</span><span class="nt">div</span>
-                      <span class="na">class</span><span class="o">=</span
-                      ><span class="s">"dropdown"</span
-                      ><span class="p">&gt;</span> <span class="p">&lt;</span
-                      ><span class="nt">a</span> <span class="na">class</span
-                      ><span class="o">=</span
-                      ><span class="s"
-                        >"btn btn-secondary dropdown-toggle"</span
-                      >
-                      <span class="na">href</span><span class="o">=</span
-                      ><span class="s">"#"</span> <span class="na">role</span
-                      ><span class="o">=</span><span class="s">"button"</span>
-                      <span class="na">id</span><span class="o">=</span
-                      ><span class="s">"dropdownMenuLink"</span>
-                      <span class="na">data-bs-toggle</span
-                      ><span class="o">=</span
-                      ><span class="s">"dropdown"</span>
-                      <span class="na">aria-expanded</span
-                      ><span class="o">=</span><span class="s">"false"</span
-                      ><span class="p">&gt;</span>
-                      Dropdown link
-                      <span class="p">&lt;/</span><span class="nt">a</span
-                      ><span class="p">&gt;</span>
+<!-- Button trigger modal -->
+<button type="button"
+ class="btn btn-light btn-primary"
+  data-bs-toggle="modal"
+   data-bs-target="#Checkbox1">
+   Показать код
+</button>
 
-                      <span class="p">&lt;</span><span class="nt">ul</span>
-                      <span class="na">class</span><span class="o">=</span
-                      ><span class="s">"dropdown-menu"</span>
-                      <span class="na">aria-labelledby</span
-                      ><span class="o">=</span
-                      ><span class="s">"dropdownMenuLink"</span
-                      ><span class="p">&gt;</span> <span class="p">&lt;</span
-                      ><span class="nt">li</span><span class="p">&gt;&lt;</span
-                      ><span class="nt">a</span> <span class="na">class</span
-                      ><span class="o">=</span
-                      ><span class="s">"dropdown-item"</span>
-                      <span class="na">href</span><span class="o">=</span
-                      ><span class="s">"#"</span
-                      ><span class="p">&gt;</span>Action<span class="p"
-                        >&lt;/</span
-                      ><span class="nt">a</span><span class="p">&gt;&lt;/</span
-                      ><span class="nt">li</span><span class="p">&gt;</span>
-                      <span class="p">&lt;</span><span class="nt">li</span
-                      ><span class="p">&gt;&lt;</span><span class="nt">a</span>
-                      <span class="na">class</span><span class="o">=</span
-                      ><span class="s">"dropdown-item"</span>
-                      <span class="na">href</span><span class="o">=</span
-                      ><span class="s">"#"</span
-                      ><span class="p">&gt;</span>Another action<span class="p"
-                        >&lt;/</span
-                      ><span class="nt">a</span><span class="p">&gt;&lt;/</span
-                      ><span class="nt">li</span><span class="p">&gt;</span>
-                      <span class="p">&lt;</span><span class="nt">li</span
-                      ><span class="p">&gt;&lt;</span><span class="nt">a</span>
-                      <span class="na">class</span><span class="o">=</span
-                      ><span class="s">"dropdown-item"</span>
-                      <span class="na">href</span><span class="o">=</span
-                      ><span class="s">"#"</span
-                      ><span class="p">&gt;</span>Something else here<span
-                        class="p"
-                        >&lt;/</span
-                      ><span class="nt">a</span><span class="p">&gt;&lt;/</span
-                      ><span class="nt">li</span><span class="p">&gt;</span>
-                      <span class="p">&lt;/</span><span class="nt">ul</span
-                      ><span class="p">&gt;</span> <span class="p">&lt;/</span
-                      ><span class="nt">div</span
-                      ><span class="p">&gt;</span></code
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+<!-- Modal -->
+<div class="modal fade" id="Checkbox1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl text-start">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="highlight">
+          <pre class="chroma">
+            <code class="language-html" data-lang="html"
+              ><span class="p">&lt;</span><span class="nt">div</span>
+              <span class="na">class</span><span class="o">=</span
+              ><span class="s">"dropdown"</span
+              ><span class="p">&gt;</span> <span class="p">&lt;</span
+              ><span class="nt">a</span> <span class="na">class</span
+              ><span class="o">=</span
+              ><span class="s"
+                >"btn btn-secondary dropdown-toggle"</span
+              >
+              <span class="na">href</span><span class="o">=</span
+              ><span class="s">"#"</span> <span class="na">role</span
+              ><span class="o">=</span><span class="s">"button"</span>
+              <span class="na">id</span><span class="o">=</span
+              ><span class="s">"dropdownMenuLink"</span>
+              <span class="na">data-bs-toggle</span
+              ><span class="o">=</span
+              ><span class="s">"dropdown"</span>
+              <span class="na">aria-expanded</span
+              ><span class="o">=</span><span class="s">"false"</span
+              ><span class="p">&gt;</span>
+              Dropdown link
+              <span class="p">&lt;/</span><span class="nt">a</span
+              ><span class="p">&gt;</span>
+
+              <span class="p">&lt;</span><span class="nt">ul</span>
+              <span class="na">class</span><span class="o">=</span
+              ><span class="s">"dropdown-menu"</span>
+              <span class="na">aria-labelledby</span
+              ><span class="o">=</span
+              ><span class="s">"dropdownMenuLink"</span
+              ><span class="p">&gt;</span> <span class="p">&lt;</span
+              ><span class="nt">li</span><span class="p">&gt;&lt;</span
+              ><span class="nt">a</span> <span class="na">class</span
+              ><span class="o">=</span
+              ><span class="s">"dropdown-item"</span>
+              <span class="na">href</span><span class="o">=</span
+              ><span class="s">"#"</span
+              ><span class="p">&gt;</span>Action<span class="p"
+                >&lt;/</span
+              ><span class="nt">a</span><span class="p">&gt;&lt;/</span
+              ><span class="nt">li</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">li</span
+              ><span class="p">&gt;&lt;</span><span class="nt">a</span>
+              <span class="na">class</span><span class="o">=</span
+              ><span class="s">"dropdown-item"</span>
+              <span class="na">href</span><span class="o">=</span
+              ><span class="s">"#"</span
+              ><span class="p">&gt;</span>Another action<span class="p"
+                >&lt;/</span
+              ><span class="nt">a</span><span class="p">&gt;&lt;/</span
+              ><span class="nt">li</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">li</span
+              ><span class="p">&gt;&lt;</span><span class="nt">a</span>
+              <span class="na">class</span><span class="o">=</span
+              ><span class="s">"dropdown-item"</span>
+              <span class="na">href</span><span class="o">=</span
+              ><span class="s">"#"</span
+              ><span class="p">&gt;</span>Something else here<span
+                class="p"
+                >&lt;/</span
+              ><span class="nt">a</span><span class="p">&gt;&lt;/</span
+              ><span class="nt">li</span><span class="p">&gt;</span>
+              <span class="p">&lt;/</span><span class="nt">ul</span
+              ><span class="p">&gt;</span> <span class="p">&lt;/</span
+              ><span class="nt">div</span
+              ><span class="p">&gt;</span></code
+            >
+          </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- Конец модели с кодом -->
+                  
 
           <!-- 2 block -->
           <div
@@ -222,15 +238,37 @@
                 </label>
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+              
+                  <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
-
+                <!-- Конец модели с кодом -->
           <!-- 3 block -->
 
           <div
@@ -264,14 +302,36 @@
                 </label>
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                                <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 4 block -->
           <div
@@ -330,14 +390,36 @@
                 >
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                                <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 5 block -->
 
@@ -377,14 +459,36 @@
                 >
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                               <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 6 block -->
           <div
@@ -413,14 +517,36 @@
                 />
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                                <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- Checkbox ending -->
 
@@ -444,14 +570,36 @@
               <label for="customRange1" class="form-label">Example range</label>
               <input type="range" class="form-range" id="customRange1" />
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                               <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 2 block -->
           <div
@@ -469,14 +617,36 @@
                 disabled
               />
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                                <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 3 block -->
           <div
@@ -493,14 +663,36 @@
                 id="customRange2"
               />
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                               <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 4 block -->
           <div
@@ -520,14 +712,36 @@
                 id="customRange3"
               />
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                                <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- Range ending -->
 
@@ -562,14 +776,36 @@
                 />
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                                <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 2 block -->
           <div
@@ -589,14 +825,36 @@
                 >
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                                <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 3 block -->
           <div
@@ -623,14 +881,36 @@
                 </div>
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                               <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 4 block -->
           <div
@@ -647,14 +927,36 @@
                 <span class="input-group-text">.00</span>
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                                <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 5 block -->
           <div
@@ -677,14 +979,36 @@
                 />
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
+                                <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- 6 block -->
           <div
@@ -699,15 +1023,36 @@
                 ></textarea>
               </div>
               <br />
-              <a
-                class="btn btn-light btn-primary"
-                href="./pages/teoria.html"
-                role="button"
-                >Показать код &raquo;</a
-              >
-              
+                               <!-- Начало модели с кодом -->
+              <!-- Button trigger modal -->
+<button type="button"
+class="btn btn-light btn-primary"
+ data-bs-toggle="modal"
+  data-bs-target="#Checkbox2"><!-- этот айди и айди в первом диве модели, должны совпадать -->
+  Показать код
+</button>
+
+<!-- Modal -->
+<!-- первый див модели --><div class="modal fade" id="Checkbox2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-xl text-start">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">код</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <div class="highlight">
+         <pre class="chroma">
+          Код программы сюда 
+         </pre>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
             </div>
           </div>
+                <!-- Конец модели с кодом -->
 
           <!-- Input group ending -->
 

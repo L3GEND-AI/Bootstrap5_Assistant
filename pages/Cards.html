@@ -61,6 +61,7 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Checkbox и Select</a></li>
                 <li><a class="dropdown-item" href="./Cards.html">Cards</a></li>
+                <li><a class="dropdown-item" href="./Example_how_use_modelWindow.html">Modal</a></li>
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
@@ -238,9 +239,21 @@
 
               <!-- Код -->
 
-            <div class="collapse col-8" id="cardDataKitchen">
-                <div class="card card-body">
-                <div class="highlight">
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Код</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="highlight">
                 <pre class="chroma">
                     <code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;card&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;width: 18rem;&#34;</span><span class="p">&gt;</span>
                     </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;...&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;card-img-top&#34;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&#34;...&#34;</span><span class="p">&gt;</span>
@@ -261,8 +274,15 @@
                 </pre>
             </div>
               </div>
-            </div>
-            </div>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+           
             <!-- Конец третьей карточки -->
           <hr class="dashed">
             
